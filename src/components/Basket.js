@@ -1,3 +1,5 @@
+import "./Basket.css";
+
 const Basket = (props) => {
   const removeCartItem = (index, item) => {
     let currentCartItems = [...props.basket];
@@ -8,19 +10,19 @@ const Basket = (props) => {
   }
 
   return (
-    <div>
+    <div className="cart">
       <h2>My Cart</h2>
       {props.basket.map((item, index) => {
         return (
           <div className="shopping-cart">
             <img src={item.url} alt="" />
-            <p>{item.name}</p>
-            <p>{item.price}</p>
+            <h4>{item.name}</h4>
+            <p>£{item.price}</p>
             <button onClick={() => removeCartItem(index, item)}>delete</button>
           </div>
         )
       })}
-      <p>Total to pay: £{props.totalCost}</p>
+      <h4>Total to pay: £{(props.totalCost).toFixed(2)}</h4>
     </div>
   )
 }

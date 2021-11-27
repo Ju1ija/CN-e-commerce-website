@@ -32,16 +32,3 @@ img {
 i {
   font-size: 50px;
 }
-
-.shopping-cart {
-  display: flex;
-  width: 600px;
-}
-
-.shopping-cart img {
-  height: 70px;
-  width: 70px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin: 10px;
-}

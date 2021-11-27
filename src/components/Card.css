@@ -3,6 +3,7 @@
   width: 220px;
   object-fit: cover;
   border-radius: 6px;
+  margin-bottom: 10px;
 }
 
 .card {
