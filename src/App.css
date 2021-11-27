@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+.dogs-on-sale {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card img {
+  height: 200px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+img {
+  height: 150px;
+}
+
+.basket {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.basket p {
+  font-weight: bold;
+  margin: 0;
+  transform: translate(20%, 190%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+i {
+  font-size: 50px;
+}
+
+.shopping-cart {
+  display: flex;
+  width: 600px;
+}
+
+.shopping-cart img {
+  height: 70px;
+  width: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 10px;
 }
