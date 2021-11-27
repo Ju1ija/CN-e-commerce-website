@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/CN-e-commerce-website/static/css/main.dfdf821e.chunk.css",
+    "main.js": "/CN-e-commerce-website/static/js/main.87684f0e.chunk.js",
+    "main.js.map": "/CN-e-commerce-website/static/js/main.87684f0e.chunk.js.map",
+    "runtime-main.js": "/CN-e-commerce-website/static/js/runtime-main.6238c4a2.js",
+    "runtime-main.js.map": "/CN-e-commerce-website/static/js/runtime-main.6238c4a2.js.map",
+    "static/css/2.b6f7359a.chunk.css": "/CN-e-commerce-website/static/css/2.b6f7359a.chunk.css",
+    "static/js/2.f4631b42.chunk.js": "/CN-e-commerce-website/static/js/2.f4631b42.chunk.js",
+    "static/js/2.f4631b42.chunk.js.map": "/CN-e-commerce-website/static/js/2.f4631b42.chunk.js.map",
+    "index.html": "/CN-e-commerce-website/index.html",
+    "static/css/2.b6f7359a.chunk.css.map": "/CN-e-commerce-website/static/css/2.b6f7359a.chunk.css.map",
+    "static/css/main.dfdf821e.chunk.css.map": "/CN-e-commerce-website/static/css/main.dfdf821e.chunk.css.map",
+    "static/js/2.f4631b42.chunk.js.LICENSE.txt": "/CN-e-commerce-website/static/js/2.f4631b42.chunk.js.LICENSE.txt",
+    "static/media/sausageDog.342f9246.png": "/CN-e-commerce-website/static/media/sausageDog.342f9246.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6238c4a2.js",
+    "static/css/2.b6f7359a.chunk.css",
+    "static/js/2.f4631b42.chunk.js",
+    "static/css/main.dfdf821e.chunk.css",
+    "static/js/main.87684f0e.chunk.js"
+  ]
+}
