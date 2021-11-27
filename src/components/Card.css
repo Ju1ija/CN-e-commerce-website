@@ -1,4 +1,35 @@
-.loader {
+.card img {
+  height: 200px;
+  width: 220px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.card {
+  background-color: #FFFFFF;
+  width: 280px;
+  height: 380px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.more-info, button {
+  cursor: pointer;
+}
+
+.card p, .card h4, .card h3 {
+  margin: 5px 0;
+}
+
+.card button {
+  margin-top: 10px;
+}
+
+/* .loader {
   border: 3px solid #f3f3f3;
   border-top: 3px solid #1E7056;
   border-radius: 50%;
@@ -16,4 +47,4 @@
   100% {
     transform: rotate(360deg);
   }
-}
+} */

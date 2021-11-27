@@ -15,9 +15,9 @@ const Picture = (props) => {
   return (
     <>
       <img src={props.item.url} alt="" />
-      <h2>{props.item.name}</h2>
-      <h3>£{props.item.price}</h3>
-      <p onClick={props.onClickEvent}>more info</p>
+      <h3>{props.item.name}</h3>
+      <h4>£{props.item.price}</h4>
+      <p onClick={props.onClickEvent} className="more-info">more info</p>
       <button onClick={props.addToBasket}>add to basket</button>
     </>
   )
@@ -26,8 +26,8 @@ const Picture = (props) => {
 const ContactInfo = (props) => {
   return (
     <>
-      <h2>{props.item.name}</h2>
-      <h3>£{props.item.price}</h3>
+      <h3>{props.item.name}</h3>
+      <h4>£{props.item.price}</h4>
       <p>Current owner: {props.item.owner}</p>
       <p>City: {props.item.address}</p>
       <p>Phone: {props.item.contactDetails}</p>

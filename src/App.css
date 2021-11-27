@@ -1,15 +1,12 @@
 .dogs-on-sale {
   display: flex;
   flex-wrap: wrap;
-  width: 1200px;
-}
-
-.card img {
-  height: 200px;
+  width: 1280px;
+  margin-bottom: 50px;
 }
 
 .title {
-  width: 1200px;
+  width: 1260px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -23,6 +20,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  cursor: pointer;
 }
 
 .basket p {
